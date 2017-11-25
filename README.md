@@ -6,7 +6,7 @@ Ever wished your Bungee Cord server came with a ```/lobby``` command that send t
 
 ### Prerequisites
 
-* Java 8
+* Java 8 SDK
 * Apached Maven
 * Eclipse Oxygen (not required, but helpfull if you whish to edit the source)
 
@@ -19,39 +19,24 @@ $ git clone git@github.com:frklan/Teleport2Lobby.git
 $ cd Teleport2Lobby
 $ mvn package
 ````
-Copy the jar file from ```target``` to your bungee server's plugin folder.
+Copy the jar file from ```target``` to your bungee proxy server's plugin folder (N.B. the plugin will NOT work if copied to a SpigotMC server)
 
 ## Running
 
 ### Prerequisites
 
-* Java 8
 * Bungee Coord proxy, see install guide [here](https://www.spigotmc.org/wiki/bungeecord-installation/)
-* Two or more [SpigotMC servers](https://www.spigotmc.org/wiki/spigot/)
+* Two or more [SpigotMC](https://www.spigotmc.org/wiki/spigot/) servers
 
 ### Installing
 
 Copy the jar file to your Bungee server's plugin folder and restart the server.
 
-A default config file will be created in ```plugins/Teleport2Lobby```
-
-```
-#################################################
-#                Teleport2Lobby                 #
-#################################################
-
-# DO NOT TOUCH THIS
-version: '1.0'
-
-# The name of the lobby server. Mus be listed in servers section in BungeeCord's config.yml
-lobby-server: 'lobby'
-```
-
-The ```lobby-server``` must be present in the server section in your Bungee config.
+A default config file will be created in ```plugins/Teleport2Lobby``` the first time the plugin is run. The ```lobby-server``` should be set to the server acting as the lobby.
 
 ### Permissions
 
-A player need the ```teleport2lobby.lobby``` permission to be able to use the ```lobby``` command.
+All player needs ```teleport2lobby.lobby``` permission to be able to use the ```lobby``` command.
 
 ## Contributing
 
@@ -71,7 +56,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
