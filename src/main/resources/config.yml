@@ -1,0 +1,9 @@
+#################################################
+#                Teleport2Lobby                 #
+#################################################
+
+# DO NOT TOUCH THIS
+version: '1.0'
+
+# The name of the lobby server. Mus be listed in servers section in BungeeCord's config.yml
+lobby-server: 'lobby'
