@@ -20,12 +20,12 @@ public class TeleportCommand extends Command
 	private ProxiedPlayer player;
 	private ServerInfo targetServer;
 	
-	public TeleportCommand(Plugin plugin)
+	public TeleportCommand(Plugin plugin, PluginConfig config)
 	{
-		super("lobby","teleport2lobby.lobby",new String[0]);
+		super("lobby",/*"teleport2lobby.lobby"*/ "", "hub");
 		
 		this.plugin = plugin;        
-        this.config = new PluginConfig(plugin);
+        this.config = config;
 	}
 
 	@Override

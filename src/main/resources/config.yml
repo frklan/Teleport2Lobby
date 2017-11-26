@@ -3,7 +3,11 @@
 #################################################
 
 # DO NOT TOUCH THIS
-version: '1.0'
+version: '1.1'
+
+# Disable server statistics via bStats addon, see https://bStats.org/ for details
+# Can also be disabled on server level in plugins/bStats/config.yml
+disableServerMetrics: false
 
 # The name of the lobby server. Mus be listed in servers section in BungeeCord's config.yml
 lobby-server: 'lobby'

@@ -17,6 +17,11 @@ public class PluginConfig
   
 	@Getter
 	private String lobbyServer;
+	
+	@Getter
+	private Boolean disablebStats = false;
+	
+	private Configuration configuration = null;
   
 	public PluginConfig(Plugin plugin)
 	{
@@ -26,7 +31,6 @@ public class PluginConfig
 
 	public void reloadConfiguration()
 	{
-		Configuration configuration;
 		try
 		{
 			configuration = ConfigurationProvider.getProvider(YamlConfiguration.class).load(createOrLoadConfigFile("config.yml"));
@@ -36,7 +40,7 @@ public class PluginConfig
 			throw new RuntimeException("Could not load config", eror);
 		}
 
-		if(!configuration.getString("version").equalsIgnoreCase("1.0"))
+		if(!configuration.getString("version").equalsIgnoreCase("1.1"))
 		{
 			// unkown file-format.
 			throw new RuntimeException("Unknown config file, please erase and restart BungeeCord.");
@@ -47,6 +51,8 @@ public class PluginConfig
 		{
 			throw new RuntimeException("'lobby-server' missing in config file.");
 		}
+		
+		disablebStats = configuration.getBoolean("disableServerMetrics");
 	}
   
   
