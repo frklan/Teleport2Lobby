@@ -1,4 +1,5 @@
 # Teleport2Lobby Plugin
+[![Build Status](https://travis-ci.org/frklan/Teleport2Lobby.svg?branch=master)](https://travis-ci.org/frklan/Teleport2Lobby)
 
 Ever wished your Bungee Cord server came with a ```/lobby``` command that send the player back to a lobby? Well here's a minimal plugin that does just that.
 
@@ -19,7 +20,7 @@ $ git clone git@github.com:frklan/Teleport2Lobby.git
 $ cd Teleport2Lobby
 $ mvn package
 ````
-Copy the jar file from ```target``` to your bungee proxy server's plugin folder (N.B. the plugin will NOT work if copied to a SpigotMC server)
+Copy the jar file from ```target``` to your bungee proxy server's plugin folder (N.B. the plugin will NOT work if installed on a SpigotMC server)
 
 ## Running
 
@@ -36,13 +37,13 @@ A default config file will be created in ```plugins/Teleport2Lobby``` the first 
 
 ### Permissions
 
-All player needs ```teleport2lobby.lobby``` permission to be able to use the ```lobby``` command.
+Players need ```teleport2lobby.lobby``` permission to be able to use the ```/lobby``` command.
 
 ## Contributing
 
 Contributions are always welcome!
 
-When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owner of this repository before making a change.
+When contributing to this repository, please first discuss the change you wish to make via the issue tracker, email, or any other method with the owner of this repository before making a change.
 
 Please note that we have a code of conduct, you are required to follow it in all your interactions with the project.
 
@@ -62,4 +63,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 * The creators of BungeeCord and SpigotMC
 * Plugin structure from [AdvancedBungeeAnnouncer](https://github.com/minecrafter/AdvancedBungeeAnnouncer)
-* README based on[PurpleBooth's](https://github.com/PurpleBooth) template
+* README based on [PurpleBooth's](https://github.com/PurpleBooth) template
