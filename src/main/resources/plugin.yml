@@ -1,9 +1,10 @@
 name: Teleport2Lobby
 main: com.yellowfortyfour.bungee.teleport2lobby.Teleport2LobbyPlugin
-version: 0.1.0
+version: 0.1.1-SNAPSHOT
 author: Fredrik Andersson (ProtonCavor)
 
 commands:
-   lobby:
-      description: Sends player to lobby server
-      usage: /<command>
+  lobby:
+    aliases: hub
+    description: Sends player to the lobby server
+    usage: /<command>
