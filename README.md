@@ -1,5 +1,9 @@
 # Teleport2Lobby Plugin
-[![Build Status](https://travis-ci.org/frklan/Teleport2Lobby.svg?branch=master)](https://travis-ci.org/frklan/Teleport2Lobby)
+[![Bungee Cord 1.12.2](https://img.shields.io/badge/BungeeCord-1.12.2-brightgreen.svg)](https://www.spigotmc.org/wiki/bungeecord/)
+[![Build Status](https://travis-ci.org/frklan/Teleport2Lobby.svg?branch=master)](https://travis-ci.org/frklan/Teleport2Lobby) 
+[![GitHub release](https://img.shields.io/github/release/frklan/Teleport2Lobby.svg)](https://github.com/frklan/Teleport2Lobby/releases)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/frklan/Teleport2Lobby/issues) 
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](https://github.com/frklan/Teleport2Lobby/blob/master/LICENSE)
 
 Ever wished your Bungee Cord server came with a ```/lobby``` command that send the player back to a lobby? Well here's a minimal plugin that does just that.
 
@@ -73,4 +77,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 
-
+[![HitCount](http://hits.dwyl.io/frklan/Teleport2Lobby.svg)]()
