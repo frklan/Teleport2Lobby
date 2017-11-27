@@ -39,6 +39,10 @@ A default config file will be created in ```plugins/Teleport2Lobby``` the first 
 
 Players need ```teleport2lobby.lobby``` permission to be able to use the ```/lobby``` command.
 
+## Plugin Stats
+
+The plugin is using the [bStat](https://github.com/BtoBastian/bStats-Metrics) metric classes by [Bastian Oppermann](https://github.com/BtoBastian) to gather a bunch of usage statistics. See this [link](https://bstats.org/plugin/bungeecord/Teleport2Lobby) for current up to date data.
+
 ## Contributing
 
 Contributions are always welcome!
@@ -64,3 +68,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 * The creators of BungeeCord and SpigotMC
 * Plugin structure from [AdvancedBungeeAnnouncer](https://github.com/minecrafter/AdvancedBungeeAnnouncer)
 * README based on [PurpleBooth's](https://github.com/PurpleBooth) template
+* [bStat](https://github.com/BtoBastian/bStats-Metrics) by [Bastian Oppermann](https://github.com/BtoBastian)
+
+
+
+
+
