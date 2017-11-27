@@ -1,6 +1,6 @@
 name: Teleport2Lobby
 main: com.yellowfortyfour.bungee.teleport2lobby.Teleport2LobbyPlugin
-version: 0.1.1-SNAPSHOT
+version: 0.1.1
 author: Fredrik Andersson (ProtonCavor)
 
 commands:
