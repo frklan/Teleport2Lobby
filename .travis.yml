@@ -7,6 +7,7 @@ deploy:
     secure: XERfsTHXfrHTbYLLZaYA5JWLtgn9+eZP9JhoCzKHYMabMlVZjhOMRKfdf3N0cQtr0TmRbi38ZqLG50w3eijnb/9Q7Fq4w3qGqJfdKno9tpXDNBJYw8uQHasspOHI0rTQFrXrYO9vR3InfqsV5MCPwaceLmY3KZ7iCHl9LIwal7UnrgBuF4z+9env65D9yY6c20124qAukP3tp4eyQ+emrSj/E3h7fWqZDmtOkXKt1HVm+A+n7F0AS/viyG+JqSaM4gD+jmFBQAGkZCofR8a4ehc6OgSCs/wT+3F+9125G0OyVXi6IZVMZuJW6jhUZPJRnD9XrBe/EeDIVd1HAonIySeTuOvyZHOExnDeMpxJABokMu226OH7459iseRZaciGerJJ9H1e4BHDhfSjxUww033/oDAD4MZSeNX65KkR5fXSybzv8E2UeJoczDANZhEGj4caj1EciGXRH2FLnIReat8uO2zVOVt8d/8aemVEWWELVXmaE0HAUpxlc0laGKx6UZuZym52ZCfEAu6YNd1StvY/NPkeWmVM1uWlxu3R64CIl7hWgQB2DqPWSsZs8F1wEAEvf33PKw0nKR6P4ZMF4wSsQ247Z9Xse5ESileLKulfpF8jKCJM+d/y+2qCc3cfCP+gDsfQF8db1aHC7X62EvxPrBS9I7lx5SZ1Xo6srNE=
   file_glob: true
   file: "$TRAVIS_BUILD_DIR/target/Teleport2Lobby*.jar"
+  skip_cleanup: true
   on:
     repo: frklan/Teleport2Lobby
     tags: true
