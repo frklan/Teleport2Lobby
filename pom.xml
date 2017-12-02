@@ -4,7 +4,7 @@
 	
 	<groupId>com.yellowfortyfour.bungee</groupId>
 	<artifactId>Teleport2Lobby</artifactId>
-	<version>0.1.1</version>
+	<version>0.1.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	
 	<name>Teleport2Lobby</name>
